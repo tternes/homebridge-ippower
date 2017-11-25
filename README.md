@@ -1,6 +1,6 @@
 # homebridge-ippower
 
-[Homebridge](https://github.com/nfarina/homebridge) platform plugin for the IP Power 9258 4 Outlet Controller.
+[Homebridge](https://github.com/nfarina/homebridge) platform plugin for the IP Power 9258 Outlet Controller.
 
 ## Installation
 
@@ -13,24 +13,24 @@
 Sample:
 
 ```
-	"accessories": [
-		{
-			"accessory": "IPPower",
-			"name" : "Workbench Light",
-			"ipaddress": "10.0.1.120",
-			"username": "admin",
-			"password": "12345678",
-			"outlet": 1
-		},
-		{
-			"accessory": "IPPower",
-			"name" : "Workbench Radio",
-			"ipaddress": "10.0.1.120",
-			"username": "admin",
-			"password": "12345678",
-			"outlet": 2
-		}
-	]
+"accessories": [
+    {
+        "accessory": "IPPower",
+        "name" : "Workbench Light",
+        "ipaddress": "10.0.1.120",
+        "username": "admin",
+        "password": "12345678",
+        "outlet": 1
+    },
+    {
+        "accessory": "IPPower",
+        "name" : "Workbench Radio",
+        "ipaddress": "10.0.1.120",
+        "username": "admin",
+        "password": "12345678",
+        "outlet": 2
+    }
+]
 ```
 
 
@@ -43,6 +43,6 @@ Sample:
 * **password**: password used for accessing web UI
 * **outlet**: Number (1-4) corresponding to the outlet on the back of the device
 
-# Device Support
+## Device Support
 
 This plugin has only been tested against a _very_ old version of the IP Power firmware (circa 2007). It's likely newer firmware versions are incompatible. PRs would be very welcome to improve support for modern versions.
