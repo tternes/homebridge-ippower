@@ -1,0 +1,25 @@
+{
+  "name": "homebridge-ippower",
+  "version": "0.1.0",
+  "description": "Homebridge platform plugin for the IP Power 9258 4 Outlet Controller",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "engines": {
+    "node": ">=4.3.2",
+    "homebridge": ">=0.4.0"
+  },
+  "keywords": [
+    "homebridge-plugin",
+    "ippower9258",
+    "ippower",
+    "9258"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tternes/homebridge-ippower.git"
+  },
+  "author": "Thaddeus Ternes",
+  "license": "MIT"
+}
